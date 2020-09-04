@@ -1,0 +1,173 @@
+body
+{
+  background-color: #D6EAF8 ;
+  color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#itable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(0, 140, 255);
+}
+
+#itable td, #itable th 
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  height: 40px;
+}
+
+#itable tr:nth-child(even){background-color: #f2f2f2;}
+
+#itable tr:nth-child(odd){background-color: #ffffff;}
+
+#itable tr:hover {background-color: #AED6F1 ;}
+
+#itable tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-size: 20px;
+}
+.h1{
+  margin-bottom: 10px;
+  font-size: 30px;
+  padding:20px;
+  color: #fff;
+  width: 50%;
+  text-shadow: 2px 1px 5px black;
+  background: rgb(0, 140, 255);
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.button{
+    cursor: pointer;
+    width: 100px;
+    display:inline-block;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    margin:5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(0, 140, 255);
+    transition:transform 0.1s ease-in-out;
+}
+.button:focus{
+    outline: none;
+}
+.button:active{
+    transform: scale(0.9);
+}
+#box
+{
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #3498DB;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 20px;
+  background-color: #3498DB;
+}
+
+select, input[list], input[type=text], input[type=number]
+{
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+input[type=submit]{
+    cursor: pointer;
+    width: 100px;
+    display:inline-block;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    margin:5px auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(0, 140, 255);
+    transition:transform 0.1s ease-in-out;
+}
+input[type=submit]:focus{
+    outline: none;
+}
+input[type=submit]:active{
+    transform: scale(0.9);
+}
+textarea
+{
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+input[type=date]
+{
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#table td, #table th 
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-collapse: collapse;
+  align-items: center;
+  text-align: center;
+
+}
+#table tr th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#foot
+{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  align-self: baseline;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px  #000;
+  letter-spacing: 1px;
+  opacity: 0.75;
+  z-index: -9999;
+}
+@media (max-width: 858px){
+  .h1{
+    width: 70%;
+  } 
+}
+
